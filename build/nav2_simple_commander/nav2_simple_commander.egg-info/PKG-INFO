@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: nav2_simple_commander
+Version: 1.0.0
+Summary: An importable library for writing mobile robot applications in python3
+Maintainer: steve
+Maintainer-email: stevenmacenski@gmail.com
+License: Apache-2.0
+Requires-Dist: setuptools

@@ -1,0 +1,221 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found nav2_common: 1.1.6 (/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common/share/nav2_common/cmake)
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found nav2_util: 1.1.6 (/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util/share/nav2_util/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nav2_core: 1.1.6 (/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core/share/nav2_core/cmake)
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_lattice[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_2d[0m
+[  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o[0m
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:[m[K In member function ‘[01m[Kbool nav2_smac_planner::FemPosDeviationOsqpInterface::OptimizeWithOsqp(size_t, size_t, std::vector<double, std::allocator<double> >*, std::vector<long long int>*, std::vector<long long int>*, std::vector<double, std::allocator<double> >*, std::vector<long long int>*, std::vector<long long int>*, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, OSQPData*, OSQPWorkspace**, OSQPSettings*)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:288:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KOSQPData*[m[K’ to ‘[01m[KOSQPWorkspace**[m[K’
+  288 |   *work = osqp_setup([01;31m[Kdata[m[K, settings);
+      |                      [01;31m[K^~~~[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[KOSQPData*[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:26[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[01m[K/usr/local/include/osqp/osqp.h:58:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kc_int osqp_setup(OSQPWorkspace**, const OSQPData*, const OSQPSettings*)[m[K’
+   58 | c_int osqp_setup([01;36m[KOSQPWorkspace** workp[m[K, const OSQPData* data, const OSQPSettings* settings);
+      |                  [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:27[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:300:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  300 |              [01;35m[K"failed optimization status:\t%d"[m[K, [32m[K(*work)->info->status[m[K);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                [32m[K|[m[K
+      |                                                                [32m[Kchar*[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:300:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  300 |              "failed optimization status:\t[01;36m[K%d[m[K", (*work)->info->status);
+      |                                            [01;36m[K~^[m[K
+      |                                             [01;36m[K|[m[K
+      |                                             [01;36m[Kint[m[K
+      |                                            [32m[K%s[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:27[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:306:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  306 |              [01;35m[K"failed optimization status:\t%d"[m[K, [32m[K(*work)->info->status[m[K);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                [32m[K|[m[K
+      |                                                                [32m[Kchar*[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:306:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  306 |              "failed optimization status:\t[01;36m[K%d[m[K", (*work)->info->status);
+      |                                            [01;36m[K~^[m[K
+      |                                             [01;36m[K|[m[K
+      |                                             [01;36m[Kint[m[K
+      |                                            [32m[K%s[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:[m[K In member function ‘[01m[Kbool nav2_smac_planner::FemPosDeviationOsqpInterface::OptimizeWithOsqp(size_t, size_t, std::vector<double, std::allocator<double> >*, std::vector<long long int>*, std::vector<long long int>*, std::vector<double, std::allocator<double> >*, std::vector<long long int>*, std::vector<long long int>*, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, OSQPData*, OSQPWorkspace**, OSQPSettings*)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:288:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KOSQPData*[m[K’ to ‘[01m[KOSQPWorkspace**[m[K’
+  288 |   *work = osqp_setup([01;31m[Kdata[m[K, settings);
+      |                      [01;31m[K^~~~[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[KOSQPData*[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:26[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[01m[K/usr/local/include/osqp/osqp.h:58:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kc_int osqp_setup(OSQPWorkspace**, const OSQPData*, const OSQPSettings*)[m[K’
+   58 | c_int osqp_setup([01;36m[KOSQPWorkspace** workp[m[K, const OSQPData* data, const OSQPSettings* settings);
+      |                  [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:27[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:300:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  300 |              [01;35m[K"failed optimization status:\t%d"[m[K, [32m[K(*work)->info->status[m[K);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                [32m[K|[m[K
+      |                                                                [32m[Kchar*[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:300:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  300 |              "failed optimization status:\t[01;36m[K%d[m[K", (*work)->info->status);
+      |                                            [01;36m[K~^[m[K
+      |                                             [01;36m[K|[m[K
+      |                                             [01;36m[Kint[m[K
+      |                                            [32m[K%s[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:27[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:306:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  306 |              [01;35m[K"failed optimization status:\t%d"[m[K, [32m[K(*work)->info->status[m[K);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                [32m[K|[m[K
+      |                                                                [32m[Kchar*[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:306:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  306 |              "failed optimization status:\t[01;36m[K%d[m[K", (*work)->info->status);
+      |                                            [01;36m[K~^[m[K
+      |                                             [01;36m[K|[m[K
+      |                                             [01;36m[Kint[m[K
+      |                                            [32m[K%s[m[K
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:368: CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:368: CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:[m[K In member function ‘[01m[Kbool nav2_smac_planner::FemPosDeviationOsqpInterface::OptimizeWithOsqp(size_t, size_t, std::vector<double, std::allocator<double> >*, std::vector<long long int>*, std::vector<long long int>*, std::vector<double, std::allocator<double> >*, std::vector<long long int>*, std::vector<long long int>*, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*, OSQPData*, OSQPWorkspace**, OSQPSettings*)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:288:22:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KOSQPData*[m[K’ to ‘[01m[KOSQPWorkspace**[m[K’
+  288 |   *work = osqp_setup([01;31m[Kdata[m[K, settings);
+      |                      [01;31m[K^~~~[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[KOSQPData*[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:26[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[01m[K/usr/local/include/osqp/osqp.h:58:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kc_int osqp_setup(OSQPWorkspace**, const OSQPData*, const OSQPSettings*)[m[K’
+   58 | c_int osqp_setup([01;36m[KOSQPWorkspace** workp[m[K, const OSQPData* data, const OSQPSettings* settings);
+      |                  [01;36m[K~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:27[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:300:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  300 |              [01;35m[K"failed optimization status:\t%d"[m[K, [32m[K(*work)->info->status[m[K);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                [32m[K|[m[K
+      |                                                                [32m[Kchar*[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:300:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  300 |              "failed optimization status:\t[01;36m[K%d[m[K", (*work)->info->status);
+      |                                            [01;36m[K~^[m[K
+      |                                             [01;36m[K|[m[K
+      |                                             [01;36m[Kint[m[K
+      |                                            [32m[K%s[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:27[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:306:14:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  306 |              [01;35m[K"failed optimization status:\t%d"[m[K, [32m[K(*work)->info->status[m[K);
+      |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                [32m[K|[m[K
+      |                                                                [32m[Kchar*[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:306:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  306 |              "failed optimization status:\t[01;36m[K%d[m[K", (*work)->info->status);
+      |                                            [01;36m[K~^[m[K
+      |                                             [01;36m[K|[m[K
+      |                                             [01;36m[Kint[m[K
+      |                                            [32m[K%s[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/nav2_smac_planner.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav2_smac_planner_2d.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:368: CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/nav2_smac_planner_lattice.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

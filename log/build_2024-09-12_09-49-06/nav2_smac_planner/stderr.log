@@ -1,0 +1,62 @@
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In constructor ‘[01m[Knav2_smac_planner::Smoother::Smoother(const nav2_smac_planner::SmootherParams&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:41:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass nav2_smac_planner::Smoother[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+   41 |   point_publisher_ = this->[01;31m[Kcreate_publisher[m[K<geometry_msgs::msg::Point>("smoother_osqp_topic", 10);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In constructor ‘[01m[Knav2_smac_planner::Smoother::Smoother(const nav2_smac_planner::SmootherParams&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:41:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass nav2_smac_planner::Smoother[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+   41 |   point_publisher_ = this->[01;31m[Kcreate_publisher[m[K<geometry_msgs::msg::Point>("smoother_osqp_topic", 10);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:41:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   41 |   point_publisher_ = this->create_publisher<geometry_msgs::msg::Point[01;31m[K>[m[K("smoother_osqp_topic", 10);
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:41:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   41 |   point_publisher_ = this->create_publisher<geometry_msgs::msg::Point[01;31m[K>[m[K("smoother_osqp_topic", 10);
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In member function ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:225:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kgeometry_msgs[m[K’
+  225 |   point_publisher_
+      |                   [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+  226 |   [32m[Kgeometry_msgs[m[K::msg::Point smoothed_point;
+      |   [32m[K~~~~~~~~~~~~~[m[K    
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In member function ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:225:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kgeometry_msgs[m[K’
+  225 |   point_publisher_
+      |                   [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+  226 |   [32m[Kgeometry_msgs[m[K::msg::Point smoothed_point;
+      |   [32m[K~~~~~~~~~~~~~[m[K    
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:248:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmoothed_point[m[K’ was not declared in this scope
+  248 |       [01;31m[Ksmoothed_point[m[K.x = path_point.kappa();
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:248:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmoothed_point[m[K’ was not declared in this scope
+  248 |       [01;31m[Ksmoothed_point[m[K.x = path_point.kappa();
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In constructor ‘[01m[Knav2_smac_planner::Smoother::Smoother(const nav2_smac_planner::SmootherParams&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:41:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass nav2_smac_planner::Smoother[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+   41 |   point_publisher_ = this->[01;31m[Kcreate_publisher[m[K<geometry_msgs::msg::Point>("smoother_osqp_topic", 10);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:41:70:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   41 |   point_publisher_ = this->create_publisher<geometry_msgs::msg::Point[01;31m[K>[m[K("smoother_osqp_topic", 10);
+      |                                                                      [01;31m[K^[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In member function ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:225:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kgeometry_msgs[m[K’
+  225 |   point_publisher_
+      |                   [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+  226 |   [32m[Kgeometry_msgs[m[K::msg::Point smoothed_point;
+      |   [32m[K~~~~~~~~~~~~~[m[K    
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:248:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmoothed_point[m[K’ was not declared in this scope
+  248 |       [01;31m[Ksmoothed_point[m[K.x = path_point.kappa();
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:144: CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:158: CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:144: CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav2_smac_planner_2d.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/nav2_smac_planner.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/nav2_smac_planner_lattice.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

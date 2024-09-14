@@ -1,0 +1,606 @@
+[0.000000] (-) TimerEvent: {}
+[0.000467] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.000684] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000766] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000804] (-) JobUnselected: {'identifier': 'auto_recharge_ros2'}
+[0.000881] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000906] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000932] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000956] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000978] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001013] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.001071] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.001095] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.001145] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.001180] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001203] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001225] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.001277] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001300] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001328] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.001352] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001496] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.001522] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001544] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.001676] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.001700] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.001798] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.001822] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.001842] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001864] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001886] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001922] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.002240] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.002324] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.002348] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.002376] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.002445] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.002470] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.002512] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.002531] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.002542] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.002571] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.002580] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.002588] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.002597] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.002605] (-) JobUnselected: {'identifier': 'nmea_msgs'}
+[0.002614] (-) JobUnselected: {'identifier': 'nmea_navsat_driver'}
+[0.002623] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.002631] (-) JobUnselected: {'identifier': 'serial'}
+[0.002640] (-) JobUnselected: {'identifier': 'simple_follower_ros2'}
+[0.002650] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.002658] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.002666] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.002674] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.002682] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.002690] (-) JobUnselected: {'identifier': 'wheeltec_cartographer'}
+[0.002698] (-) JobUnselected: {'identifier': 'wheeltec_gps_path'}
+[0.002705] (-) JobUnselected: {'identifier': 'wheeltec_joy'}
+[0.002714] (-) JobUnselected: {'identifier': 'wheeltec_nav2'}
+[0.002721] (-) JobUnselected: {'identifier': 'wheeltec_robot_kcf'}
+[0.002729] (-) JobUnselected: {'identifier': 'wheeltec_robot_keyboard'}
+[0.002737] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.002744] (-) JobUnselected: {'identifier': 'wheeltec_robot_rrt'}
+[0.002752] (-) JobUnselected: {'identifier': 'wheeltec_robot_rtab'}
+[0.002780] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.002788] (-) JobUnselected: {'identifier': 'wheeltec_rrt_msg'}
+[0.002796] (-) JobUnselected: {'identifier': 'wheeltec_rviz2'}
+[0.002804] (-) JobUnselected: {'identifier': 'wheeltec_slam_toolbox'}
+[0.002815] (nav2_smac_planner) JobQueued: {'identifier': 'nav2_smac_planner', 'dependencies': OrderedDict([('nav2_common', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common'), ('nav2_msgs', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs'), ('nav2_voxel_grid', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid'), ('nav2_util', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util'), ('nav2_lifecycle_manager', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server'), ('nav2_costmap_2d', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d'), ('nav2_core', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core')])}
+[0.002839] (nav2_smac_planner) JobStarted: {'identifier': 'nav2_smac_planner'}
+[0.069583] (nav2_smac_planner) JobProgress: {'identifier': 'nav2_smac_planner', 'progress': 'cmake'}
+[0.072064] (nav2_smac_planner) JobProgress: {'identifier': 'nav2_smac_planner', 'progress': 'build'}
+[0.075108] (nav2_smac_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner', '--', '-j20', '-l20'], 'cwd': '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wsh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt/lib:/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/wsh/wheeltec/wheeltec_ros2/install/usb_cam/lib:/home/wsh/wheeltec/wheeltec_ros2/install/serial/lib:/home/wsh/wheeltec/wheeltec_ros2/install/openslam_gmapping/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_plugins/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_critics/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_core/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_utils/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_navfn_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_mppi_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_constrained_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bt_navigator/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behaviors/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_collision_monitor/lib:/home/wsh/wheeltec/wheeltec_ros2/install/costmap_queue/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_velocity_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behavior_tree/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_amcl/lib:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs/lib:/usr/local/adolc/lib:/usr/local/lib:/usr/local/adolc/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wsh'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.92.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1980'), ('SYSTEMD_EXEC_PID', '2284'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2913'), ('CPLUS_INCLUDE_PATH', '/usr/local/adolc/include:/usr/local/adolc/include:'), ('COLCON_PREFIX_PATH', '/home/wsh/wheeltec/wheeltec_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wsh'), ('JOURNAL_STREAM', '8:9655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wsh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wsh-Pulse-15-B13VFK:@/tmp/.ICE-unix/2257,unix/wsh-Pulse-15-B13VFK:/tmp/.ICE-unix/2257'), ('INVOCATION_ID', 'fa15a2aedded4548a28959bd49fbb78e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1a4f70fa62.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rviz2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_kcf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_gps_path:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wsh/wheeltec/wheeltec_ros2/install/web_video_server:/home/wsh/wheeltec/wheeltec_ros2/install/usb_cam:/home/wsh/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wsh/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/serial:/home/wsh/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_navsat_driver:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wsh/wheeltec/wheeltec_ros2/install/navigation2:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_mppi_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_constrained_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behaviors:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_collision_monitor:/home/wsh/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_velocity_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/auto_recharge_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/wsh/wheeltec/wheeltec_ros2/install/tf2_tools/lib/python3.10/site-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_simple_commander/lib/python3.10/site-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/auto_recharge_ros2/lib/python3.10/site-packages:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rviz2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_kcf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_gps_path:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wsh/wheeltec/wheeltec_ros2/install/web_video_server:/home/wsh/wheeltec/wheeltec_ros2/install/usb_cam:/home/wsh/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/serial:/home/wsh/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wsh/wheeltec/wheeltec_ros2/install/navigation2:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_mppi_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_constrained_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behaviors:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_collision_monitor:/home/wsh/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_velocity_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wsh/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_navsat_driver:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wsh/wheeltec/wheeltec_ros2/install/auto_recharge_ros2:/opt/ros/humble')]), 'shell': False}
+[0.099572] (-) TimerEvent: {}
+[0.124325] (nav2_smac_planner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199689] (-) TimerEvent: {}
+[0.265823] (nav2_smac_planner) StdoutLine: {'line': b'-- Found nav2_common: 1.1.6 (/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common/share/nav2_common/cmake)\n'}
+[0.266191] (nav2_smac_planner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299803] (-) TimerEvent: {}
+[0.300446] (nav2_smac_planner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.305965] (nav2_smac_planner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.321666] (nav2_smac_planner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.347191] (nav2_smac_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.383933] (nav2_smac_planner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399950] (-) TimerEvent: {}
+[0.437990] (nav2_smac_planner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.441335] (nav2_smac_planner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500101] (-) TimerEvent: {}
+[0.562559] (nav2_smac_planner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600303] (-) TimerEvent: {}
+[0.700589] (-) TimerEvent: {}
+[0.701307] (nav2_smac_planner) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.785348] (nav2_smac_planner) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.800668] (-) TimerEvent: {}
+[0.814606] (nav2_smac_planner) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.900801] (-) TimerEvent: {}
+[0.996483] (nav2_smac_planner) StdoutLine: {'line': b'-- Found nav2_util: 1.1.6 (/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util/share/nav2_util/cmake)\n'}
+[1.000875] (-) TimerEvent: {}
+[1.101190] (-) TimerEvent: {}
+[1.201506] (-) TimerEvent: {}
+[1.301739] (-) TimerEvent: {}
+[1.379606] (nav2_smac_planner) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.380447] (nav2_smac_planner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.401827] (-) TimerEvent: {}
+[1.501291] (nav2_smac_planner) StdoutLine: {'line': b'-- Found nav2_core: 1.1.6 (/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core/share/nav2_core/cmake)\n'}
+[1.501895] (-) TimerEvent: {}
+[1.602171] (-) TimerEvent: {}
+[1.702427] (-) TimerEvent: {}
+[1.802672] (-) TimerEvent: {}
+[1.902903] (-) TimerEvent: {}
+[2.003169] (-) TimerEvent: {}
+[2.103436] (-) TimerEvent: {}
+[2.203669] (-) TimerEvent: {}
+[2.303923] (-) TimerEvent: {}
+[2.404182] (-) TimerEvent: {}
+[2.504451] (-) TimerEvent: {}
+[2.542420] (nav2_smac_planner) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[2.542600] (nav2_smac_planner) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.575722] (nav2_smac_planner) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[2.575903] (nav2_smac_planner) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.604519] (-) TimerEvent: {}
+[2.704749] (-) TimerEvent: {}
+[2.805023] (-) TimerEvent: {}
+[2.905349] (-) TimerEvent: {}
+[3.005586] (-) TimerEvent: {}
+[3.105865] (-) TimerEvent: {}
+[3.206211] (-) TimerEvent: {}
+[3.306560] (-) TimerEvent: {}
+[3.406814] (-) TimerEvent: {}
+[3.507113] (-) TimerEvent: {}
+[3.607364] (-) TimerEvent: {}
+[3.707701] (-) TimerEvent: {}
+[3.807990] (-) TimerEvent: {}
+[3.908319] (-) TimerEvent: {}
+[4.008556] (-) TimerEvent: {}
+[4.108820] (-) TimerEvent: {}
+[4.209043] (-) TimerEvent: {}
+[4.309300] (-) TimerEvent: {}
+[4.409609] (-) TimerEvent: {}
+[4.509979] (-) TimerEvent: {}
+[4.610336] (-) TimerEvent: {}
+[4.710578] (-) TimerEvent: {}
+[4.810810] (-) TimerEvent: {}
+[4.911084] (-) TimerEvent: {}
+[5.011352] (-) TimerEvent: {}
+[5.111720] (-) TimerEvent: {}
+[5.211990] (-) TimerEvent: {}
+[5.312341] (-) TimerEvent: {}
+[5.412606] (-) TimerEvent: {}
+[5.512837] (-) TimerEvent: {}
+[5.613092] (-) TimerEvent: {}
+[5.713328] (-) TimerEvent: {}
+[5.813569] (-) TimerEvent: {}
+[5.913807] (-) TimerEvent: {}
+[6.014029] (-) TimerEvent: {}
+[6.114279] (-) TimerEvent: {}
+[6.214550] (-) TimerEvent: {}
+[6.314806] (-) TimerEvent: {}
+[6.415082] (-) TimerEvent: {}
+[6.515340] (-) TimerEvent: {}
+[6.615671] (-) TimerEvent: {}
+[6.716025] (-) TimerEvent: {}
+[6.816369] (-) TimerEvent: {}
+[6.916600] (-) TimerEvent: {}
+[7.016925] (-) TimerEvent: {}
+[7.117218] (-) TimerEvent: {}
+[7.217504] (-) TimerEvent: {}
+[7.317766] (-) TimerEvent: {}
+[7.418015] (-) TimerEvent: {}
+[7.518273] (-) TimerEvent: {}
+[7.618645] (-) TimerEvent: {}
+[7.719039] (-) TimerEvent: {}
+[7.819318] (-) TimerEvent: {}
+[7.919689] (-) TimerEvent: {}
+[8.019971] (-) TimerEvent: {}
+[8.120260] (-) TimerEvent: {}
+[8.220546] (-) TimerEvent: {}
+[8.320849] (-) TimerEvent: {}
+[8.421118] (-) TimerEvent: {}
+[8.521474] (-) TimerEvent: {}
+[8.621711] (-) TimerEvent: {}
+[8.721942] (-) TimerEvent: {}
+[8.822169] (-) TimerEvent: {}
+[8.922564] (-) TimerEvent: {}
+[9.022872] (-) TimerEvent: {}
+[9.123188] (-) TimerEvent: {}
+[9.223505] (-) TimerEvent: {}
+[9.323800] (-) TimerEvent: {}
+[9.424189] (-) TimerEvent: {}
+[9.524605] (-) TimerEvent: {}
+[9.624952] (-) TimerEvent: {}
+[9.725385] (-) TimerEvent: {}
+[9.825706] (-) TimerEvent: {}
+[9.926116] (-) TimerEvent: {}
+[10.026457] (-) TimerEvent: {}
+[10.126683] (-) TimerEvent: {}
+[10.226911] (-) TimerEvent: {}
+[10.327179] (-) TimerEvent: {}
+[10.427566] (-) TimerEvent: {}
+[10.527810] (-) TimerEvent: {}
+[10.628076] (-) TimerEvent: {}
+[10.728427] (-) TimerEvent: {}
+[10.828782] (-) TimerEvent: {}
+[10.929085] (-) TimerEvent: {}
+[10.948171] (nav2_smac_planner) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.027817] (nav2_smac_planner) StdoutLine: {'line': b'-- Generating done\n'}
+[11.029163] (nav2_smac_planner) StdoutLine: {'line': b'-- Build files have been written to: /home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner\n'}
+[11.029341] (-) TimerEvent: {}
+[11.085873] (nav2_smac_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_smac_planner_2d\x1b[0m\n'}
+[11.086044] (nav2_smac_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_smac_planner\x1b[0m\n'}
+[11.086085] (nav2_smac_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_smac_planner_lattice\x1b[0m\n'}
+[11.129493] (-) TimerEvent: {}
+[11.136105] (nav2_smac_planner) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o\x1b[0m\n'}
+[11.136349] (nav2_smac_planner) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o\x1b[0m\n'}
+[11.137511] (nav2_smac_planner) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o\x1b[0m\n'}
+[11.137759] (nav2_smac_planner) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o\x1b[0m\n'}
+[11.137843] (nav2_smac_planner) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o\x1b[0m\n'}
+[11.137982] (nav2_smac_planner) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o\x1b[0m\n'}
+[11.138395] (nav2_smac_planner) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o\x1b[0m\n'}
+[11.138533] (nav2_smac_planner) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/collision_checker.cpp.o\x1b[0m\n'}
+[11.138813] (nav2_smac_planner) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o\x1b[0m\n'}
+[11.139651] (nav2_smac_planner) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o\x1b[0m\n'}
+[11.140065] (nav2_smac_planner) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_hybrid.cpp.o\x1b[0m\n'}
+[11.140231] (nav2_smac_planner) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o\x1b[0m\n'}
+[11.141114] (nav2_smac_planner) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_2d.cpp.o\x1b[0m\n'}
+[11.141386] (nav2_smac_planner) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/costmap_downsampler.cpp.o\x1b[0m\n'}
+[11.142525] (nav2_smac_planner) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_lattice.cpp.o\x1b[0m\n'}
+[11.146150] (nav2_smac_planner) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o\x1b[0m\n'}
+[11.146477] (nav2_smac_planner) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/cos_theta_smoother_config.pb.cc.o\x1b[0m\n'}
+[11.146613] (nav2_smac_planner) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o\x1b[0m\n'}
+[11.151411] (nav2_smac_planner) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o\x1b[0m\n'}
+[11.153003] (nav2_smac_planner) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_basic.cpp.o\x1b[0m\n'}
+[11.231485] (-) TimerEvent: {}
+[11.331780] (-) TimerEvent: {}
+[11.432105] (-) TimerEvent: {}
+[11.532408] (-) TimerEvent: {}
+[11.632745] (-) TimerEvent: {}
+[11.733055] (-) TimerEvent: {}
+[11.833358] (-) TimerEvent: {}
+[11.933702] (-) TimerEvent: {}
+[12.034313] (-) TimerEvent: {}
+[12.138629] (-) TimerEvent: {}
+[12.238945] (-) TimerEvent: {}
+[12.339272] (-) TimerEvent: {}
+[12.439669] (-) TimerEvent: {}
+[12.540189] (-) TimerEvent: {}
+[12.640629] (-) TimerEvent: {}
+[12.727407] (nav2_smac_planner) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/fem_pos_deviation_smoother_config.pb.cc.o\x1b[0m\n'}
+[12.740737] (-) TimerEvent: {}
+[12.841045] (-) TimerEvent: {}
+[12.941373] (-) TimerEvent: {}
+[13.043872] (-) TimerEvent: {}
+[13.144246] (-) TimerEvent: {}
+[13.244611] (-) TimerEvent: {}
+[13.344980] (-) TimerEvent: {}
+[13.445518] (-) TimerEvent: {}
+[13.547497] (-) TimerEvent: {}
+[13.647803] (-) TimerEvent: {}
+[13.748148] (-) TimerEvent: {}
+[13.848754] (-) TimerEvent: {}
+[13.949361] (-) TimerEvent: {}
+[14.050535] (-) TimerEvent: {}
+[14.105785] (nav2_smac_planner) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/planner_open_space_config.pb.cc.o\x1b[0m\n'}
+[14.150652] (-) TimerEvent: {}
+[14.252697] (-) TimerEvent: {}
+[14.353066] (-) TimerEvent: {}
+[14.454545] (-) TimerEvent: {}
+[14.554892] (-) TimerEvent: {}
+[14.655256] (-) TimerEvent: {}
+[14.755813] (-) TimerEvent: {}
+[14.859796] (-) TimerEvent: {}
+[14.960176] (-) TimerEvent: {}
+[15.060526] (-) TimerEvent: {}
+[15.160920] (-) TimerEvent: {}
+[15.262679] (-) TimerEvent: {}
+[15.363270] (-) TimerEvent: {}
+[15.466803] (-) TimerEvent: {}
+[15.567217] (-) TimerEvent: {}
+[15.667884] (-) TimerEvent: {}
+[15.768357] (-) TimerEvent: {}
+[15.826260] (nav2_smac_planner) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o\x1b[0m\n'}
+[15.868486] (-) TimerEvent: {}
+[15.883984] (nav2_smac_planner) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/a_star.cpp.o\x1b[0m\n'}
+[15.968629] (-) TimerEvent: {}
+[16.068966] (-) TimerEvent: {}
+[16.169731] (-) TimerEvent: {}
+[16.272345] (-) TimerEvent: {}
+[16.375157] (-) TimerEvent: {}
+[16.475743] (-) TimerEvent: {}
+[16.576298] (-) TimerEvent: {}
+[16.679515] (-) TimerEvent: {}
+[16.779862] (-) TimerEvent: {}
+[16.883506] (-) TimerEvent: {}
+[16.983856] (-) TimerEvent: {}
+[17.084201] (-) TimerEvent: {}
+[17.184683] (-) TimerEvent: {}
+[17.288046] (-) TimerEvent: {}
+[17.388467] (-) TimerEvent: {}
+[17.488819] (-) TimerEvent: {}
+[17.589124] (-) TimerEvent: {}
+[17.690621] (-) TimerEvent: {}
+[17.790987] (-) TimerEvent: {}
+[17.891325] (-) TimerEvent: {}
+[17.991676] (-) TimerEvent: {}
+[18.021545] (nav2_smac_planner) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o\x1b[0m\n'}
+[18.094529] (-) TimerEvent: {}
+[18.194964] (-) TimerEvent: {}
+[18.295379] (-) TimerEvent: {}
+[18.395770] (-) TimerEvent: {}
+[18.402797] (nav2_smac_planner) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o\x1b[0m\n'}
+[18.495909] (-) TimerEvent: {}
+[18.596504] (-) TimerEvent: {}
+[18.697481] (-) TimerEvent: {}
+[18.798664] (-) TimerEvent: {}
+[18.875458] (nav2_smac_planner) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/pnc_point.pb.cc.o\x1b[0m\n'}
+[18.898786] (-) TimerEvent: {}
+[18.999168] (-) TimerEvent: {}
+[19.101798] (-) TimerEvent: {}
+[19.204513] (-) TimerEvent: {}
+[19.304880] (-) TimerEvent: {}
+[19.405616] (-) TimerEvent: {}
+[19.457238] (nav2_smac_planner) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o\x1b[0m\n'}
+[19.506865] (-) TimerEvent: {}
+[19.607210] (-) TimerEvent: {}
+[19.708037] (-) TimerEvent: {}
+[19.809809] (-) TimerEvent: {}
+[19.910739] (-) TimerEvent: {}
+[20.011280] (-) TimerEvent: {}
+[20.112884] (-) TimerEvent: {}
+[20.216642] (-) TimerEvent: {}
+[20.241102] (nav2_smac_planner) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/qp_problem.pb.cc.o\x1b[0m\n'}
+[20.316754] (-) TimerEvent: {}
+[20.420498] (-) TimerEvent: {}
+[20.520998] (-) TimerEvent: {}
+[20.621417] (-) TimerEvent: {}
+[20.721812] (-) TimerEvent: {}
+[20.728187] (nav2_smac_planner) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/cos_theta_smoother_config.pb.cc.o\x1b[0m\n'}
+[20.821948] (-) TimerEvent: {}
+[20.922360] (-) TimerEvent: {}
+[21.022759] (-) TimerEvent: {}
+[21.123151] (-) TimerEvent: {}
+[21.225705] (-) TimerEvent: {}
+[21.307994] (nav2_smac_planner) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/fem_pos_deviation_smoother_config.pb.cc.o\x1b[0m\n'}
+[21.325825] (-) TimerEvent: {}
+[21.347883] (nav2_smac_planner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o\x1b[0m\n'}
+[21.425955] (-) TimerEvent: {}
+[21.528588] (-) TimerEvent: {}
+[21.629190] (-) TimerEvent: {}
+[21.729681] (-) TimerEvent: {}
+[21.830544] (-) TimerEvent: {}
+[21.933876] (-) TimerEvent: {}
+[21.953692] (nav2_smac_planner) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/planner_open_space_config.pb.cc.o\x1b[0m\n'}
+[22.036554] (-) TimerEvent: {}
+[22.137000] (-) TimerEvent: {}
+[22.237352] (-) TimerEvent: {}
+[22.237662] (nav2_smac_planner) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/pnc_point.pb.cc.o\x1b[0m\n'}
+[22.273697] (nav2_smac_planner) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o\x1b[0m\n'}
+[22.340508] (-) TimerEvent: {}
+[22.395357] (nav2_smac_planner) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/qp_problem.pb.cc.o\x1b[0m\n'}
+[22.440627] (-) TimerEvent: {}
+[22.540983] (-) TimerEvent: {}
+[22.641344] (-) TimerEvent: {}
+[22.710608] (nav2_smac_planner) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o\x1b[0m\n'}
+[22.718221] (nav2_smac_planner) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o\x1b[0m\n'}
+[22.741475] (-) TimerEvent: {}
+[22.750935] (nav2_smac_planner) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_2d.cpp.o\x1b[0m\n'}
+[22.841617] (-) TimerEvent: {}
+[22.941549] (nav2_smac_planner) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_basic.cpp.o\x1b[0m\n'}
+[22.941836] (-) TimerEvent: {}
+[22.945081] (nav2_smac_planner) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/cos_theta_smoother_config.pb.cc.o\x1b[0m\n'}
+[23.041956] (-) TimerEvent: {}
+[23.142285] (-) TimerEvent: {}
+[23.242618] (-) TimerEvent: {}
+[23.343653] (-) TimerEvent: {}
+[23.445694] (-) TimerEvent: {}
+[23.546031] (-) TimerEvent: {}
+[23.646352] (-) TimerEvent: {}
+[23.748787] (-) TimerEvent: {}
+[23.849155] (-) TimerEvent: {}
+[23.949494] (-) TimerEvent: {}
+[24.049806] (-) TimerEvent: {}
+[24.150126] (-) TimerEvent: {}
+[24.250487] (-) TimerEvent: {}
+[24.349524] (nav2_smac_planner) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/fem_pos_deviation_smoother_config.pb.cc.o\x1b[0m\n'}
+[24.350578] (-) TimerEvent: {}
+[24.450944] (-) TimerEvent: {}
+[24.506051] (nav2_smac_planner) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/planner_open_space_config.pb.cc.o\x1b[0m\n'}
+[24.534175] (nav2_smac_planner) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/pnc_point.pb.cc.o\x1b[0m\n'}
+[24.553504] (-) TimerEvent: {}
+[24.653805] (-) TimerEvent: {}
+[24.754139] (-) TimerEvent: {}
+[24.854487] (-) TimerEvent: {}
+[24.952038] (nav2_smac_planner) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/qp_problem.pb.cc.o\x1b[0m\n'}
+[24.954596] (-) TimerEvent: {}
+[25.054936] (-) TimerEvent: {}
+[25.155367] (-) TimerEvent: {}
+[25.258810] (-) TimerEvent: {}
+[25.359193] (-) TimerEvent: {}
+[25.459503] (-) TimerEvent: {}
+[25.559851] (-) TimerEvent: {}
+[25.660605] (-) TimerEvent: {}
+[25.761755] (-) TimerEvent: {}
+[25.862624] (-) TimerEvent: {}
+[25.962970] (-) TimerEvent: {}
+[26.063778] (-) TimerEvent: {}
+[26.164102] (-) TimerEvent: {}
+[26.264714] (-) TimerEvent: {}
+[26.365223] (-) TimerEvent: {}
+[26.465637] (-) TimerEvent: {}
+[26.565914] (-) TimerEvent: {}
+[26.570543] (nav2_smac_planner) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_smac_planner.so\x1b[0m\n'}
+[26.666027] (-) TimerEvent: {}
+[26.766390] (-) TimerEvent: {}
+[26.866827] (-) TimerEvent: {}
+[26.967236] (-) TimerEvent: {}
+[27.067559] (-) TimerEvent: {}
+[27.167940] (-) TimerEvent: {}
+[27.268363] (-) TimerEvent: {}
+[27.368744] (-) TimerEvent: {}
+[27.469075] (-) TimerEvent: {}
+[27.569475] (-) TimerEvent: {}
+[27.669990] (-) TimerEvent: {}
+[27.764266] (nav2_smac_planner) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_smac_planner_2d.so\x1b[0m\n'}
+[27.770095] (-) TimerEvent: {}
+[27.870467] (-) TimerEvent: {}
+[27.970856] (-) TimerEvent: {}
+[28.071271] (-) TimerEvent: {}
+[28.122233] (nav2_smac_planner) StdoutLine: {'line': b'[ 82%] Built target nav2_smac_planner\n'}
+[28.171386] (-) TimerEvent: {}
+[28.271752] (-) TimerEvent: {}
+[28.372121] (-) TimerEvent: {}
+[28.472563] (-) TimerEvent: {}
+[28.572901] (-) TimerEvent: {}
+[28.673386] (-) TimerEvent: {}
+[28.773827] (-) TimerEvent: {}
+[28.821280] (nav2_smac_planner) StdoutLine: {'line': b'[ 90%] Built target nav2_smac_planner_2d\n'}
+[28.873973] (-) TimerEvent: {}
+[28.974301] (-) TimerEvent: {}
+[29.074640] (-) TimerEvent: {}
+[29.174992] (-) TimerEvent: {}
+[29.275456] (-) TimerEvent: {}
+[29.375801] (-) TimerEvent: {}
+[29.476115] (-) TimerEvent: {}
+[29.576525] (-) TimerEvent: {}
+[29.676834] (-) TimerEvent: {}
+[29.777244] (-) TimerEvent: {}
+[29.877607] (-) TimerEvent: {}
+[29.977919] (-) TimerEvent: {}
+[30.078323] (-) TimerEvent: {}
+[30.178747] (-) TimerEvent: {}
+[30.279071] (-) TimerEvent: {}
+[30.379398] (-) TimerEvent: {}
+[30.479679] (-) TimerEvent: {}
+[30.579995] (-) TimerEvent: {}
+[30.680418] (-) TimerEvent: {}
+[30.780727] (-) TimerEvent: {}
+[30.881210] (-) TimerEvent: {}
+[30.981676] (-) TimerEvent: {}
+[31.082139] (-) TimerEvent: {}
+[31.182474] (-) TimerEvent: {}
+[31.282726] (-) TimerEvent: {}
+[31.383120] (-) TimerEvent: {}
+[31.483408] (-) TimerEvent: {}
+[31.583747] (-) TimerEvent: {}
+[31.684168] (-) TimerEvent: {}
+[31.784667] (-) TimerEvent: {}
+[31.884982] (-) TimerEvent: {}
+[31.985350] (-) TimerEvent: {}
+[32.085642] (-) TimerEvent: {}
+[32.185901] (-) TimerEvent: {}
+[32.286129] (-) TimerEvent: {}
+[32.379077] (nav2_smac_planner) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_smac_planner_lattice.so\x1b[0m\n'}
+[32.386207] (-) TimerEvent: {}
+[32.486472] (-) TimerEvent: {}
+[32.586707] (-) TimerEvent: {}
+[32.686971] (-) TimerEvent: {}
+[32.787232] (-) TimerEvent: {}
+[32.887485] (-) TimerEvent: {}
+[32.987721] (-) TimerEvent: {}
+[33.088020] (-) TimerEvent: {}
+[33.112199] (nav2_smac_planner) StdoutLine: {'line': b'[100%] Built target nav2_smac_planner_lattice\n'}
+[33.147773] (nav2_smac_planner) CommandEnded: {'returncode': 0}
+[33.188233] (-) TimerEvent: {}
+[33.288778] (-) TimerEvent: {}
+[33.389155] (-) TimerEvent: {}
+[33.489260] (nav2_smac_planner) JobProgress: {'identifier': 'nav2_smac_planner', 'progress': 'install'}
+[33.489473] (-) TimerEvent: {}
+[33.519777] (nav2_smac_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner'], 'cwd': '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'wsh'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt/lib:/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/wsh/wheeltec/wheeltec_ros2/install/usb_cam/lib:/home/wsh/wheeltec/wheeltec_ros2/install/serial/lib:/home/wsh/wheeltec/wheeltec_ros2/install/openslam_gmapping/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_plugins/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_critics/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_core/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_utils/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_navfn_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_mppi_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_constrained_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bt_navigator/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behaviors/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_collision_monitor/lib:/home/wsh/wheeltec/wheeltec_ros2/install/costmap_queue/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_velocity_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behavior_tree/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_amcl/lib:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs/lib:/usr/local/adolc/lib:/usr/local/lib:/usr/local/adolc/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/wsh'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.92.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1980'), ('SYSTEMD_EXEC_PID', '2284'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2913'), ('CPLUS_INCLUDE_PATH', '/usr/local/adolc/include:/usr/local/adolc/include:'), ('COLCON_PREFIX_PATH', '/home/wsh/wheeltec/wheeltec_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'wsh'), ('JOURNAL_STREAM', '8:9655'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'wsh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/wsh-Pulse-15-B13VFK:@/tmp/.ICE-unix/2257,unix/wsh-Pulse-15-B13VFK:/tmp/.ICE-unix/2257'), ('INVOCATION_ID', 'fa15a2aedded4548a28959bd49fbb78e'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1a4f70fa62.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rviz2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_kcf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_gps_path:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wsh/wheeltec/wheeltec_ros2/install/web_video_server:/home/wsh/wheeltec/wheeltec_ros2/install/usb_cam:/home/wsh/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wsh/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/serial:/home/wsh/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_navsat_driver:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wsh/wheeltec/wheeltec_ros2/install/navigation2:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_mppi_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_constrained_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behaviors:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_collision_monitor:/home/wsh/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_velocity_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/auto_recharge_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/wsh/wheeltec/wheeltec_ros2/install/tf2_tools/lib/python3.10/site-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_simple_commander/lib/python3.10/site-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/auto_recharge_ros2/lib/python3.10/site-packages:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rviz2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_kcf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_gps_path:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wsh/wheeltec/wheeltec_ros2/install/web_video_server:/home/wsh/wheeltec/wheeltec_ros2/install/usb_cam:/home/wsh/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/serial:/home/wsh/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wsh/wheeltec/wheeltec_ros2/install/navigation2:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_mppi_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_constrained_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behaviors:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_collision_monitor:/home/wsh/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_velocity_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wsh/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_navsat_driver:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wsh/wheeltec/wheeltec_ros2/install/auto_recharge_ros2:/opt/ros/humble')]), 'shell': False}
+[33.538861] (nav2_smac_planner) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[33.539526] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_hybrid.xml\n'}
+[33.539895] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_2d.xml\n'}
+[33.540071] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_lattice.xml\n'}
+[33.540402] (nav2_smac_planner) StdoutLine: {'line': b'-- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner.so\n'}
+[33.542354] (nav2_smac_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner.so" to ""\n'}
+[33.542696] (nav2_smac_planner) StdoutLine: {'line': b'-- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so\n'}
+[33.544657] (nav2_smac_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so" to ""\n'}
+[33.545240] (nav2_smac_planner) StdoutLine: {'line': b'-- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so\n'}
+[33.547390] (nav2_smac_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so" to ""\n'}
+[33.547673] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include/\n'}
+[33.547785] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner\n'}
+[33.547866] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp\n'}
+[33.547948] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp\n'}
+[33.547992] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp\n'}
+[33.548034] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp\n'}
+[33.548076] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp\n'}
+[33.548154] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp\n'}
+[33.548194] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp\n'}
+[33.548234] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp\n'}
+[33.548321] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp\n'}
+[33.548366] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp\n'}
+[33.548407] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp\n'}
+[33.548472] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp\n'}
+[33.548573] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty\n'}
+[33.548629] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h\n'}
+[33.548665] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp\n'}
+[33.548702] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp\n'}
+[33.548740] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp\n'}
+[33.548776] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include/\n'}
+[33.548814] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discrete_points_math.cc\n'}
+[33.548896] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//line_segment2d.cc\n'}
+[33.549025] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//math_utils.cc\n'}
+[33.549257] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discrete_points_math.h\n'}
+[33.549426] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//aabox2d.cc\n'}
+[33.549541] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//linear_interpolation.h\n'}
+[33.549750] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_path.h\n'}
+[33.549824] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//vec2d.cc\n'}
+[33.549889] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//line_segment2d.h\n'}
+[33.549952] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//math_utils.h\n'}
+[33.550013] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//future.h\n'}
+[33.550073] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//linear_interpolation.cc\n'}
+[33.550150] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//aabox2d.h\n'}
+[33.550191] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing\n'}
+[33.550230] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/cos_theta_ipopt_interface.h\n'}
+[33.550353] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc\n'}
+[33.550407] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc\n'}
+[33.550589] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_ipopt_interface.h\n'}
+[33.550824] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/cos_theta_smoother.cc\n'}
+[33.550901] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/cos_theta_ipopt_interface.cc\n'}
+[33.550939] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_ipopt_interface.cc\n'}
+[33.550974] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_smoother.h\n'}
+[33.551013] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.h\n'}
+[33.551067] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_smoother.cc\n'}
+[33.551103] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/cos_theta_smoother.h\n'}
+[33.551136] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_osqp_interface.h\n'}
+[33.551169] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_path.cc\n'}
+[33.551204] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//box2d.cc\n'}
+[33.551236] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//polygon2d.cc\n'}
+[33.551271] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//vec2d.h\n'}
+[33.551308] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//box2d.h\n'}
+[33.551347] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//polygon2d.h\n'}
+[33.551380] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//qp_solver\n'}
+[33.551420] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//qp_solver/qp_solver.h\n'}
+[33.551518] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//qp_solver/qp_solver.cc\n'}
+[33.551553] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include/\n'}
+[33.551582] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//pnc_point.proto\n'}
+[33.551611] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//cos_theta_smoother_config.proto\n'}
+[33.551639] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//qp_problem.proto\n'}
+[33.551669] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//fem_pos_deviation_smoother_config.proto\n'}
+[33.551703] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//planner_open_space_config.proto\n'}
+[33.551734] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives\n'}
+[33.551767] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution\n'}
+[33.551800] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius\n'}
+[33.551835] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png\n'}
+[33.551872] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff\n'}
+[33.551903] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json\n'}
+[33.551935] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni\n'}
+[33.552000] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json\n'}
+[33.552077] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann\n'}
+[33.552113] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json\n'}
+[33.552151] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius\n'}
+[33.552186] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png\n'}
+[33.552219] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff\n'}
+[33.552276] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json\n'}
+[33.552341] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni\n'}
+[33.552377] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json\n'}
+[33.552409] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann\n'}
+[33.552475] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json\n'}
+[33.552562] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh\n'}
+[33.552621] (nav2_smac_planner) StdoutLine: {'line': b'-- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv\n'}
+[33.553082] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner\n'}
+[33.553144] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner\n'}
+[33.553205] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh\n'}
+[33.553238] (nav2_smac_planner) StdoutLine: {'line': b'-- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv\n'}
+[33.553297] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh\n'}
+[33.553355] (nav2_smac_planner) StdoutLine: {'line': b'-- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv\n'}
+[33.553457] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash\n'}
+[33.553516] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh\n'}
+[33.553575] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh\n'}
+[33.553607] (nav2_smac_planner) StdoutLine: {'line': b'-- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv\n'}
+[33.553676] (nav2_smac_planner) StdoutLine: {'line': b'-- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv\n'}
+[33.553783] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner\n'}
+[33.553840] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner\n'}
+[33.553896] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.553945] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.553996] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.554027] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake\n'}
+[33.554088] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake\n'}
+[33.554118] (nav2_smac_planner) StdoutLine: {'line': b'-- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/package.xml\n'}
+[33.555460] (nav2_smac_planner) CommandEnded: {'returncode': 0}
+[33.589545] (-) TimerEvent: {}
+[33.689949] (-) TimerEvent: {}
+[33.790620] (-) TimerEvent: {}
+[33.891181] (-) TimerEvent: {}
+[33.932725] (nav2_smac_planner) JobEnded: {'identifier': 'nav2_smac_planner', 'rc': 0}
+[34.029543] (-) TimerEvent: {}
+[34.030178] (-) EventReactorShutdown: {}

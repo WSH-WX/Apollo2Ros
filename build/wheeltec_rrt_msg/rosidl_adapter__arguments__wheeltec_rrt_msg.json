@@ -1,0 +1,10 @@
+{
+  "package_name": "wheeltec_rrt_msg",
+  "non_idl_tuples": [
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_rrt_msg:action/ChangePosition.action",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_rrt_msg:action/FindColouredBox.action",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_rrt_msg:action/PickColouredBox.action",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_rrt_msg:srv/DeleteShape.srv",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_rrt_msg:msg/PointArray.msg"
+  ]
+}

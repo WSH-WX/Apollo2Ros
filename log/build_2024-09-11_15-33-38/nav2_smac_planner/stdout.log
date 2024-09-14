@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_lattice[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_2d[0m
+[  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m

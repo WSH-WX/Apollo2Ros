@@ -1,0 +1,14 @@
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_hybrid.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_smac_planner::SmacPlannerHybrid::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_hybrid.cpp:382:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Knav2_costmap_2d::Costmap2D*[m[K’ to ‘[01m[Knav_msgs::msg::Path&[m[K’ {aka ‘[01m[Knav_msgs::msg::Path_<std::allocator<void> >&[m[K’}
+  382 |     _smoother->smooth(plan, [01;31m[Kcostmap[m[K, time_remaining, plan_profile);
+      |                             [01;31m[K^~~~~~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Knav2_costmap_2d::Costmap2D*[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smac_planner_hybrid.hpp:23[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_hybrid.cpp:22[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:127:27:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool nav2_smac_planner::Smoother::smooth(nav_msgs::msg::Path&, nav_msgs::msg::Path&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  127 |     [01;36m[Knav_msgs::msg::Path & path_profile[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:116: CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/nav2_smac_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

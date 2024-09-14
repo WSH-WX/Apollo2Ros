@@ -1,0 +1,194 @@
+[0.049s] Invoking command in '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner': CMAKE_PREFIX_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rviz2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_kcf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_gps_path:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wsh/wheeltec/wheeltec_ros2/install/web_video_server:/home/wsh/wheeltec/wheeltec_ros2/install/usb_cam:/home/wsh/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/serial:/home/wsh/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wsh/wheeltec/wheeltec_ros2/install/navigation2:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_mppi_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_constrained_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behaviors:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_collision_monitor:/home/wsh/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_velocity_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wsh/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_navsat_driver:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wsh/wheeltec/wheeltec_ros2/install/auto_recharge_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt/lib:/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/wsh/wheeltec/wheeltec_ros2/install/usb_cam/lib:/home/wsh/wheeltec/wheeltec_ros2/install/serial/lib:/home/wsh/wheeltec/wheeltec_ros2/install/openslam_gmapping/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_plugins/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_critics/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_core/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_utils/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_navfn_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_mppi_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_constrained_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bt_navigator/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behaviors/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_collision_monitor/lib:/home/wsh/wheeltec/wheeltec_ros2/install/costmap_queue/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_velocity_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behavior_tree/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_amcl/lib:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs/lib:/usr/local/adolc/lib:/usr/local/lib:/usr/local/adolc/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner -- -j20 -l20
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_lattice[0m
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner[0m
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_2d[0m
+[0.237s] [  0%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc.o[0m
+[0.238s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.cc.o[0m
+[0.238s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc.o[0m
+[0.238s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/cos_theta_smoother.cc.o[0m
+[0.238s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o[0m
+[0.238s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o[0m
+[0.238s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[0.238s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[0.239s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.cc.o[0m
+[0.239s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/util/string_util.cc.o[0m
+[0.239s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc.o[0m
+[0.239s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/cos_theta_smoother.cc.o[0m
+[0.239s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.cc.o[0m
+[0.239s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/cos_theta_smoother.cc.o[0m
+[0.239s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc.o[0m
+[0.240s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o[0m
+[0.241s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc.o[0m
+[0.241s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc.o[0m
+[0.245s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[0.246s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/util/string_util.cc.o[0m
+[0.274s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:26[m[K,
+[0.274s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[0.274s] [01m[K/usr/local/include/osqp.h:6:11:[m[K [01;31m[Kfatal error: [m[Kosqp_configure.h: No such file or directory
+[0.274s]     6 | # include [01;31m[K"osqp_configure.h"[m[K
+[0.274s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.274s] compilation terminated.
+[0.274s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:410: CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o] Error 1
+[0.274s] gmake[2]: *** Waiting for unfinished jobs....
+[0.276s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc:21[m[K:
+[0.276s] [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.h:27:10:[m[K [01;31m[Kfatal error: [m[Knav2_smac_planner/gflags/planning_gflags.h: No such file or directory
+[0.277s]    27 | #include [01;31m[K"nav2_smac_planner/gflags/planning_gflags.h"[m[K
+[0.277s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.277s] compilation terminated.
+[0.277s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc:21[m[K:
+[0.277s] [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.h:27:10:[m[K [01;31m[Kfatal error: [m[Knav2_smac_planner/gflags/planning_gflags.h: No such file or directory
+[0.277s]    27 | #include [01;31m[K"nav2_smac_planner/gflags/planning_gflags.h"[m[K
+[0.277s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.277s] compilation terminated.
+[0.277s] gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:438: CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc.o] Error 1
+[0.277s] gmake[2]: *** Waiting for unfinished jobs....
+[0.279s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:438: CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc.o] Error 1
+[0.279s] gmake[2]: *** Waiting for unfinished jobs....
+[0.279s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:26[m[K,
+[0.280s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[0.280s] [01m[K/usr/local/include/osqp.h:6:11:[m[K [01;31m[Kfatal error: [m[Kosqp_configure.h: No such file or directory
+[0.280s]     6 | # include [01;31m[K"osqp_configure.h"[m[K
+[0.283s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.283s] compilation terminated.
+[0.283s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:410: CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o] Error 1
+[0.284s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.h:26[m[K,
+[0.284s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc:21[m[K:
+[0.284s] [01m[K/usr/local/include/osqp.h:6:11:[m[K [01;31m[Kfatal error: [m[Kosqp_configure.h: No such file or directory
+[0.284s]     6 | # include [01;31m[K"osqp_configure.h"[m[K
+[0.284s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.284s] compilation terminated.
+[0.285s] gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:410: CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc.o] Error 1
+[0.285s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc:21[m[K:
+[0.286s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/fem_pos_deviation_smoother_config.pb.cc.o[0m
+[0.286s] [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.h:27:10:[m[K [01;31m[Kfatal error: [m[Knav2_smac_planner/gflags/planning_gflags.h: No such file or directory
+[0.286s]    27 | #include [01;31m[K"nav2_smac_planner/gflags/planning_gflags.h"[m[K
+[0.286s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.286s] compilation terminated.
+[0.286s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:438: CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc.o] Error 1
+[0.289s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/planner_open_space_config.pb.cc.o[0m
+[0.342s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.h:23[m[K,
+[0.342s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.cc:21[m[K:
+[0.342s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.342s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.342s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.342s] compilation terminated.
+[0.342s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:396: CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.cc.o] Error 1
+[0.358s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.h:25[m[K,
+[0.358s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc:17[m[K:
+[0.358s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.358s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.358s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.358s] compilation terminated.
+[0.359s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:368: CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc.o] Error 1
+[0.362s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.h:25[m[K,
+[0.362s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc:17[m[K:
+[0.363s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.363s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.363s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.363s] compilation terminated.
+[0.363s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:368: CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc.o] Error 1
+[0.383s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.h:25[m[K,
+[0.383s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc:17[m[K:
+[0.383s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.383s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.383s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.383s] compilation terminated.
+[0.392s] gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:368: CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc.o] Error 1
+[0.404s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.h:23[m[K,
+[0.404s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.cc:21[m[K:
+[0.404s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.404s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.405s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.405s] compilation terminated.
+[0.406s] gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:396: CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.cc.o] Error 1
+[0.408s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.h:23[m[K,
+[0.408s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.cc:21[m[K:
+[0.408s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.408s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.408s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.409s] compilation terminated.
+[0.413s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:396: CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.cc.o] Error 1
+[0.489s] In file included from [01m[K/usr/include/coin/IpJournalist.hpp:15[m[K,
+[0.489s]                  from [01m[K/usr/include/coin/IpIpoptApplication.hpp:26[m[K,
+[0.490s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_smoother.cc:19[m[K:
+[0.490s] [01m[K/usr/include/coin/IpSmartPtr.hpp:18:4:[m[K [01;31m[Kerror: [m[K#error "don't have header file for stddef"
+[0.490s]    18 | #  [01;31m[Kerror[m[K "don't have header file for stddef"
+[0.490s]       |    [01;31m[K^~~~~[m[K
+[0.499s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.h:25[m[K,
+[0.499s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_smoother.cc:22[m[K:
+[0.499s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.499s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.499s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.499s] compilation terminated.
+[0.500s] gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:382: CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/cos_theta_smoother.cc.o] Error 1
+[0.508s] In file included from [01m[K/usr/include/coin/IpJournalist.hpp:15[m[K,
+[0.508s]                  from [01m[K/usr/include/coin/IpIpoptApplication.hpp:26[m[K,
+[0.508s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:23[m[K:
+[0.508s] [01m[K/usr/include/coin/IpSmartPtr.hpp:18:4:[m[K [01;31m[Kerror: [m[K#error "don't have header file for stddef"
+[0.508s]    18 | #  [01;31m[Kerror[m[K "don't have header file for stddef"
+[0.508s]       |    [01;31m[K^~~~~[m[K
+[0.509s] In file included from [01m[K/usr/include/coin/IpJournalist.hpp:15[m[K,
+[0.509s]                  from [01m[K/usr/include/coin/IpIpoptApplication.hpp:26[m[K,
+[0.509s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_smoother.cc:19[m[K:
+[0.509s] [01m[K/usr/include/coin/IpSmartPtr.hpp:18:4:[m[K [01;31m[Kerror: [m[K#error "don't have header file for stddef"
+[0.509s]    18 | #  [01;31m[Kerror[m[K "don't have header file for stddef"
+[0.509s]       |    [01;31m[K^~~~~[m[K
+[0.510s] In file included from [01m[K/usr/include/coin/IpJournalist.hpp:15[m[K,
+[0.510s]                  from [01m[K/usr/include/coin/IpIpoptApplication.hpp:26[m[K,
+[0.510s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:23[m[K:
+[0.510s] [01m[K/usr/include/coin/IpSmartPtr.hpp:18:4:[m[K [01;31m[Kerror: [m[K#error "don't have header file for stddef"
+[0.510s]    18 | #  [01;31m[Kerror[m[K "don't have header file for stddef"
+[0.510s]       |    [01;31m[K^~~~~[m[K
+[0.517s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.h:23[m[K,
+[0.517s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:26[m[K:
+[0.517s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.517s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.517s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.517s] compilation terminated.
+[0.518s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.h:25[m[K,
+[0.518s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_smoother.cc:22[m[K:
+[0.518s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.518s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.518s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.519s] compilation terminated.
+[0.519s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.h:23[m[K,
+[0.519s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:26[m[K:
+[0.519s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.519s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.519s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.519s] compilation terminated.
+[0.519s] gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:424: CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o] Error 1
+[0.520s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/nav2_smac_planner.dir/all] Error 2
+[0.520s] gmake[1]: *** Waiting for unfinished jobs....
+[0.520s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:382: CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/cos_theta_smoother.cc.o] Error 1
+[0.520s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:424: CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o] Error 1
+[0.555s] In file included from [01m[K/usr/include/coin/IpJournalist.hpp:15[m[K,
+[0.555s]                  from [01m[K/usr/include/coin/IpIpoptApplication.hpp:26[m[K,
+[0.556s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:23[m[K:
+[0.556s] [01m[K/usr/include/coin/IpSmartPtr.hpp:18:4:[m[K [01;31m[Kerror: [m[K#error "don't have header file for stddef"
+[0.556s]    18 | #  [01;31m[Kerror[m[K "don't have header file for stddef"
+[0.556s]       |    [01;31m[K^~~~~[m[K
+[0.564s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_ipopt_interface.h:23[m[K,
+[0.564s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:26[m[K:
+[0.564s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.564s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.564s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.564s] compilation terminated.
+[0.566s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:424: CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o] Error 1
+[0.601s] In file included from [01m[K/usr/include/coin/IpJournalist.hpp:15[m[K,
+[0.601s]                  from [01m[K/usr/include/coin/IpIpoptApplication.hpp:26[m[K,
+[0.601s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_smoother.cc:19[m[K:
+[0.601s] [01m[K/usr/include/coin/IpSmartPtr.hpp:18:4:[m[K [01;31m[Kerror: [m[K#error "don't have header file for stddef"
+[0.601s]    18 | #  [01;31m[Kerror[m[K "don't have header file for stddef"
+[0.601s]       |    [01;31m[K^~~~~[m[K
+[0.609s] In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.h:25[m[K,
+[0.609s]                  from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_smoother.cc:22[m[K:
+[0.609s] [01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+[0.610s]    15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+[0.610s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.610s] compilation terminated.
+[0.612s] gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:382: CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/cos_theta_smoother.cc.o] Error 1
+[0.881s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav2_smac_planner_2d.dir/all] Error 2
+[2.173s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/nav2_smac_planner_lattice.dir/all] Error 2
+[2.174s] gmake: *** [Makefile:146: all] Error 2
+[2.176s] Invoked command in '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner' returned '2': CMAKE_PREFIX_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_slam_toolbox:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rviz2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_urdf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rtab:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt:/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_kcf:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_nav2:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_joy:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_gps_path:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_cartographer:/home/wsh/wheeltec/wheeltec_ros2/install/web_video_server:/home/wsh/wheeltec/wheeltec_ros2/install/usb_cam:/home/wsh/wheeltec/wheeltec_ros2/install/slam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/serial:/home/wsh/wheeltec/wheeltec_ros2/install/openslam_gmapping:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bringup:/home/wsh/wheeltec/wheeltec_ros2/install/navigation2:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_dwb_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_controller:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_critics:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_utils:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_navfn_planner:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_mppi_controller:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_constrained_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bt_navigator:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behaviors:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_collision_monitor:/home/wsh/wheeltec/wheeltec_ros2/install/costmap_queue:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_velocity_smoother:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behavior_tree:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_amcl:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_driver:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_stl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/ldlidar_sl_ros2:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_keyboard:/home/wsh/wheeltec/wheeltec_ros2/install/tf2_tools:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_navsat_driver:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_simple_commander:/home/wsh/wheeltec/wheeltec_ros2/install/auto_recharge_ros2:/opt/ros/humble LD_LIBRARY_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_rrt_msg/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_rrt/lib:/home/wsh/wheeltec/wheeltec_ros2/install/turn_on_wheeltec_robot/lib:/home/wsh/wheeltec/wheeltec_ros2/install/wheeltec_robot_msg/lib:/home/wsh/wheeltec/wheeltec_ros2/install/usb_cam/lib:/home/wsh/wheeltec/wheeltec_ros2/install/serial/lib:/home/wsh/wheeltec/wheeltec_ros2/install/openslam_gmapping/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nmea_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_plugins/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_critics/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_core/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_utils/lib:/home/wsh/wheeltec/wheeltec_ros2/install/dwb_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav_2d_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_waypoint_follower/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_theta_star_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_regulated_pure_pursuit_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_navfn_planner/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_mppi_controller/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_constrained_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_bt_navigator/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behaviors/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_collision_monitor/lib:/home/wsh/wheeltec/wheeltec_ros2/install/costmap_queue/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_velocity_smoother/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_rviz_plugins/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_behavior_tree/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_amcl/lib:/home/wsh/wheeltec/wheeltec_ros2/install/lslidar_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/astra_camera_msgs/lib:/home/wsh/wheeltec/wheeltec_ros2/install/ackermann_msgs/lib:/usr/local/adolc/lib:/usr/local/lib:/usr/local/adolc/lib:/usr/local/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner -- -j20 -l20

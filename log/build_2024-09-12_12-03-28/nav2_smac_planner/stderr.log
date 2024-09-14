@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:55 (message):
+  OSQP library or include directory not found
+
+[0m
+gmake: *** [Makefile:1240: cmake_check_build_system] Error 1

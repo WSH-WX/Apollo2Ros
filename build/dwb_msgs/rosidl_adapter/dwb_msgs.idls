@@ -1,0 +1,9 @@
+/home/wsh/wheeltec/wheeltec_ros2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl
+/home/wsh/wheeltec/wheeltec_ros2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl
+/home/wsh/wheeltec/wheeltec_ros2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl
+/home/wsh/wheeltec/wheeltec_ros2/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl
+/home/wsh/wheeltec/wheeltec_ros2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl
+/home/wsh/wheeltec/wheeltec_ros2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl
+/home/wsh/wheeltec/wheeltec_ros2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl
+/home/wsh/wheeltec/wheeltec_ros2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl
+/home/wsh/wheeltec/wheeltec_ros2/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl

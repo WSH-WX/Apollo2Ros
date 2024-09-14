@@ -1,0 +1,23 @@
+[31mCMake Error at CMakeLists.txt:106 (add_library):
+  Cannot find source file:
+
+    math/Vec2d.cc
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+
+[0m
+[31mCMake Error at CMakeLists.txt:106 (add_library):
+  No SOURCES given to target: nav2_smac_planner
+
+[0m
+[31mCMake Error at CMakeLists.txt:132 (add_library):
+  No SOURCES given to target: nav2_smac_planner_2d
+
+[0m
+[31mCMake Error at CMakeLists.txt:158 (add_library):
+  No SOURCES given to target: nav2_smac_planner_lattice
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:811: cmake_check_build_system] Error 1

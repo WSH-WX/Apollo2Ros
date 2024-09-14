@@ -1,0 +1,14 @@
+{
+  "package_name": "dwb_msgs",
+  "non_idl_tuples": [
+    "/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_dwb_controller/dwb_msgs:msg/CriticScore.msg",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_dwb_controller/dwb_msgs:msg/LocalPlanEvaluation.msg",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_dwb_controller/dwb_msgs:msg/Trajectory2D.msg",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_dwb_controller/dwb_msgs:msg/TrajectoryScore.msg",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_dwb_controller/dwb_msgs:srv/DebugLocalPlan.srv",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_dwb_controller/dwb_msgs:srv/GenerateTrajectory.srv",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_dwb_controller/dwb_msgs:srv/GenerateTwists.srv",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_dwb_controller/dwb_msgs:srv/GetCriticScore.srv",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_dwb_controller/dwb_msgs:srv/ScoreTrajectory.srv"
+  ]
+}

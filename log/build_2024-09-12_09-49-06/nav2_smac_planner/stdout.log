@@ -1,0 +1,6 @@
+[  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m

@@ -1,0 +1,139 @@
+[0.046s] Invoking command in '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner -- -j20 -l20
+[0.204s] [  1%] [34m[1mRunning cpp protocol buffer compiler on /home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/proto_files/fem_pos_deviation_smoother_config.proto[0m
+[0.204s] [  3%] [34m[1mRunning cpp protocol buffer compiler on /home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/proto_files/fem_pos_deviation_smoother_config.proto[0m
+[0.204s] [  3%] [34m[1mRunning cpp protocol buffer compiler on /home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/proto_files/fem_pos_deviation_smoother_config.proto[0m
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_lattice[0m
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_2d[0m
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner[0m
+[0.315s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[0.315s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[0.315s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[0.315s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[0.316s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+[0.316s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[0.316s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/planner_open_space_config.pb.cc.o[0m
+[0.316s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[0.316s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o[0m
+[0.316s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/fem_pos_deviation_smoother_config.pb.cc.o[0m
+[0.316s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[0.318s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/planner_open_space_config.pb.cc.o[0m
+[0.319s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/fem_pos_deviation_smoother_config.pb.cc.o[0m
+[0.319s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/planner_open_space_config.pb.cc.o[0m
+[0.319s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/fem_pos_deviation_smoother_config.pb.cc.o[0m
+[10.025s] [ 18%] [32m[1mLinking CXX shared library libnav2_smac_planner_2d.so[0m
+[10.843s] [ 45%] Built target nav2_smac_planner_2d
+[11.006s] [ 46%] [32m[1mLinking CXX shared library libnav2_smac_planner_lattice.so[0m
+[11.327s] [ 46%] [32m[1mLinking CXX shared library libnav2_smac_planner.so[0m
+[11.880s] [ 73%] Built target nav2_smac_planner_lattice
+[12.211s] [100%] Built target nav2_smac_planner
+[12.234s] Invoked command in '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner -- -j20 -l20
+[12.476s] Invoking command in '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner
+[12.492s] -- Install configuration: "Release"
+[12.492s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_hybrid.xml
+[12.492s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_2d.xml
+[12.492s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_lattice.xml
+[12.493s] -- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[12.496s] -- Set runtime path of "/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner.so" to ""
+[12.496s] -- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[12.498s] -- Set runtime path of "/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so" to ""
+[12.498s] -- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[12.500s] -- Set runtime path of "/home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so" to ""
+[12.500s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include/
+[12.500s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner
+[12.500s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[12.500s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include/
+[12.501s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discrete_points_math.cc
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//line_segment2d.cc
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//math_utils.cc
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discrete_points_math.h
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//aabox2d.cc
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//linear_interpolation.h
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_path.h
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//vec2d.cc
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//line_segment2d.h
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//math_utils.h
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//future.h
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//linear_interpolation.cc
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//aabox2d.h
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_osqp_interface.cc
+[12.502s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_smoother.h
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.h
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_smoother.cc
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_points_smoothing/fem_pos_deviation_osqp_interface.h
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//discretized_path.cc
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//box2d.cc
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//polygon2d.cc
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//vec2d.h
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//box2d.h
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//polygon2d.h
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include/
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//pnc_point.proto
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//cos_theta_smoother_config.proto
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//qp_problem.proto
+[12.503s] -- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//fem_pos_deviation_smoother_config.proto
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//planner_open_space_config.proto
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include/
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//string_util.cc
+[12.503s] -- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//future.h
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//string_util.h
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include/
+[12.503s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//planning_gflags.h
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/include//planning_gflags.cc
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff
+[12.504s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[12.505s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni
+[12.505s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[12.505s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann
+[12.505s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[12.505s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[12.505s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[12.505s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[12.505s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[12.505s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[12.505s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[12.506s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[12.506s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[12.506s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[12.506s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[12.506s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[12.507s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[12.507s] -- Installing: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[12.507s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[12.507s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[12.507s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.507s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[12.507s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.507s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[12.508s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[12.508s] -- Up-to-date: /home/wsh/wheeltec/wheeltec_ros2/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[12.508s] Invoked command in '/home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_core:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_costmap_2d/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_map_server/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_lifecycle_manager/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_util/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_voxel_grid/lib:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wsh/wheeltec/wheeltec_ros2/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/wsh/wheeltec/wheeltec_ros2/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wsh/wheeltec/wheeltec_ros2/build/nav2_smac_planner

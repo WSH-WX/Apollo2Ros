@@ -1,0 +1,56 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_2d[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_lattice[0m
+[  2%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:19[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:45:10:[m[K [01;31m[Kfatal error: [m[Kfem_pos_deviation_smoother.h: No such file or directory
+   45 | #include [01;31m[K"fem_pos_deviation_smoother.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:19[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:45:10:[m[K [01;31m[Kfatal error: [m[Kfem_pos_deviation_smoother.h: No such file or directory
+   45 | #include [01;31m[K"fem_pos_deviation_smoother.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:144: CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:158: CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:19[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:45:10:[m[K [01;31m[Kfatal error: [m[Kfem_pos_deviation_smoother.h: No such file or directory
+   45 | #include [01;31m[K"fem_pos_deviation_smoother.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:144: CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smac_planner_lattice.hpp:23[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_lattice.cpp:22[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:45:10:[m[K [01;31m[Kfatal error: [m[Kfem_pos_deviation_smoother.h: No such file or directory
+   45 | #include [01;31m[K"fem_pos_deviation_smoother.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:116: CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/nav2_smac_planner_lattice.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smac_planner_2d.hpp:24[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_2d.cpp:21[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:45:10:[m[K [01;31m[Kfatal error: [m[Kfem_pos_deviation_smoother.h: No such file or directory
+   45 | #include [01;31m[K"fem_pos_deviation_smoother.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:116: CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav2_smac_planner_2d.dir/all] Error 2
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smac_planner_hybrid.hpp:23[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_hybrid.cpp:22[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:45:10:[m[K [01;31m[Kfatal error: [m[Kfem_pos_deviation_smoother.h: No such file or directory
+   45 | #include [01;31m[K"fem_pos_deviation_smoother.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:116: CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/nav2_smac_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,82 @@
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In member function ‘[01m[Kbool nav2_smac_planner::Smoother::smooth(nav_msgs::msg::Path&, nav_msgs::msg::Path&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:87:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*&, double&)[m[K’
+   87 |         [01;31m[KsmoothImpl(curr_path_segment, path_profile,reversing_segment, costmap, time_remaining)[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:19[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:140:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  140 |   bool [01;36m[KsmoothImpl[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:140:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 5 provided
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K At global scope:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:111:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  111 | bool [01;31m[KSmoother[m[K::smoothImpl(
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:19[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:140:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  140 |   bool [01;36m[KsmoothImpl[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:97:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass nav2_smac_planner::Smoother[m[K’ defined here
+   97 | class [01;36m[KSmoother[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In member function ‘[01m[Kbool nav2_smac_planner::Smoother::smooth(nav_msgs::msg::Path&, nav_msgs::msg::Path&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:87:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*&, double&)[m[K’
+   87 |         [01;31m[KsmoothImpl(curr_path_segment, path_profile,reversing_segment, costmap, time_remaining)[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:19[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:140:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  140 |   bool [01;36m[KsmoothImpl[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:140:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 5 provided
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K At global scope:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:111:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  111 | bool [01;31m[KSmoother[m[K::smoothImpl(
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:19[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:140:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  140 |   bool [01;36m[KsmoothImpl[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:97:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass nav2_smac_planner::Smoother[m[K’ defined here
+   97 | class [01;36m[KSmoother[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In member function ‘[01m[Kbool nav2_smac_planner::Smoother::smooth(nav_msgs::msg::Path&, nav_msgs::msg::Path&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:87:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*&, double&)[m[K’
+   87 |         [01;31m[KsmoothImpl(curr_path_segment, path_profile,reversing_segment, costmap, time_remaining)[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:19[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:140:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  140 |   bool [01;36m[KsmoothImpl[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:140:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 5 provided
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K At global scope:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:111:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  111 | bool [01;31m[KSmoother[m[K::smoothImpl(
+      |      [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:19[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:140:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  140 |   bool [01;36m[KsmoothImpl[m[K(
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:97:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass nav2_smac_planner::Smoother[m[K’ defined here
+   97 | class [01;36m[KSmoother[m[K
+      |       [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:144: CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/nav2_smac_planner_lattice.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:158: CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:144: CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_hybrid.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_smac_planner::SmacPlannerHybrid::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_hybrid.cpp:382:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Knav2_costmap_2d::Costmap2D*[m[K’ to ‘[01m[Knav_msgs::msg::Path&[m[K’ {aka ‘[01m[Knav_msgs::msg::Path_<std::allocator<void> >&[m[K’}
+  382 |     _smoother->smooth(plan, [01;31m[Kcostmap[m[K, time_remaining, plan_profile);
+      |                             [01;31m[K^~~~~~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Knav2_costmap_2d::Costmap2D*[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smac_planner_hybrid.hpp:23[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_hybrid.cpp:22[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:127:27:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool nav2_smac_planner::Smoother::smooth(nav_msgs::msg::Path&, nav_msgs::msg::Path&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  127 |     [01;36m[Knav_msgs::msg::Path & path_profile[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:116: CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/nav2_smac_planner.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav2_smac_planner_2d.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

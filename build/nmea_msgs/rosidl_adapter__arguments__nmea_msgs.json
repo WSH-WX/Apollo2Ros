@@ -1,0 +1,12 @@
+{
+  "package_name": "nmea_msgs",
+  "non_idl_tuples": [
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_gps/nmea_msgs:msg/Sentence.msg",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_gps/nmea_msgs:msg/Gpgga.msg",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_gps/nmea_msgs:msg/Gpgsa.msg",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_gps/nmea_msgs:msg/Gpgst.msg",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_gps/nmea_msgs:msg/Gpgsv.msg",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_gps/nmea_msgs:msg/GpgsvSatellite.msg",
+    "/home/wsh/wheeltec/wheeltec_ros2/src/wheeltec_gps/nmea_msgs:msg/Gprmc.msg"
+  ]
+}

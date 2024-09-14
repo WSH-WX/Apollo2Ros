@@ -1,0 +1,43 @@
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/polygon2d.cc:27:10:[m[K [01;31m[Kfatal error: [m[Kutil/string_util.h: No such file or directory
+   27 | #include [01;31m[K"util/string_util.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:354: CMakeFiles/nav2_smac_planner.dir/math/polygon2d.cc.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/polygon2d.cc:27:10:[m[K [01;31m[Kfatal error: [m[Kutil/string_util.h: No such file or directory
+   27 | #include [01;31m[K"util/string_util.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:354: CMakeFiles/nav2_smac_planner_lattice.dir/math/polygon2d.cc.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.h:25[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc:17[m[K:
+[01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+   15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:368: CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/cos_theta_ipopt_interface.cc.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/polygon2d.cc:27:10:[m[K [01;31m[Kfatal error: [m[Kutil/string_util.h: No such file or directory
+   27 | #include [01;31m[K"util/string_util.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:354: CMakeFiles/nav2_smac_planner_2d.dir/math/polygon2d.cc.o] Error 1
+In file included from [01m[K/usr/include/coin/IpJournalist.hpp:15[m[K,
+                 from [01m[K/usr/include/coin/IpIpoptApplication.hpp:26[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_smoother.cc:19[m[K:
+[01m[K/usr/include/coin/IpSmartPtr.hpp:18:4:[m[K [01;31m[Kerror: [m[K#error "don't have header file for stddef"
+   18 | #  [01;31m[Kerror[m[K "don't have header file for stddef"
+      |    [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_ipopt_interface.h:25[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/cos_theta_smoother.cc:22[m[K:
+[01m[K/usr/local/adolc/include/adolc/adolc_sparse.h:15:10:[m[K [01;31m[Kfatal error: [m[Kadolc/sparse/sparsedrivers.h: No such file or directory
+   15 | #include [01;31m[K<adolc/sparse/sparsedrivers.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:382: CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/cos_theta_smoother.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav2_smac_planner_2d.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/nav2_smac_planner.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/nav2_smac_planner_lattice.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

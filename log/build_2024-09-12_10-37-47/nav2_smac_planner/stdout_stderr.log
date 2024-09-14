@@ -1,0 +1,83 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_lattice[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner_2d[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_smac_planner[0m
+[  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In member function ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:247:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  247 |       path_profile.[01;31m[Kpose[m[K.position.x = path_point.kappa();
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:248:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  248 |       path_profile.[01;31m[Kpose[m[K.position.x = path_point.dkappa();
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:249:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  249 |       path_profile.[01;31m[Kpose[m[K.position.z = 0.0;
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:250:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  250 |       path_profile.[01;31m[Kpose[m[K.orientation = tf2::toMsg(tf2::Quaternion(0, 0, sin(theta / 2), cos(theta / 2)));
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In member function ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:247:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  247 |       path_profile.[01;31m[Kpose[m[K.position.x = path_point.kappa();
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:248:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  248 |       path_profile.[01;31m[Kpose[m[K.position.x = path_point.dkappa();
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:249:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  249 |       path_profile.[01;31m[Kpose[m[K.position.z = 0.0;
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:250:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  250 |       path_profile.[01;31m[Kpose[m[K.orientation = tf2::toMsg(tf2::Quaternion(0, 0, sin(theta / 2), cos(theta / 2)));
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:[m[K In member function ‘[01m[Kbool nav2_smac_planner::Smoother::smoothImpl(nav_msgs::msg::Path&, nav_msgs::msg::Path&, bool&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:247:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  247 |       path_profile.[01;31m[Kpose[m[K.position.x = path_point.kappa();
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:248:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  248 |       path_profile.[01;31m[Kpose[m[K.position.x = path_point.dkappa();
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:249:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  249 |       path_profile.[01;31m[Kpose[m[K.position.z = 0.0;
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smoother.cpp:250:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Path = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+  250 |       path_profile.[01;31m[Kpose[m[K.orientation = tf2::toMsg(tf2::Quaternion(0, 0, sin(theta / 2), cos(theta / 2)));
+      |                    [01;31m[K^~~~[m[K
+      |                    [32m[Kposes[m[K
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:144: CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:144: CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_hybrid.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_smac_planner::SmacPlannerHybrid::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_hybrid.cpp:382:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Knav2_costmap_2d::Costmap2D*[m[K’ to ‘[01m[Knav_msgs::msg::Path&[m[K’ {aka ‘[01m[Knav_msgs::msg::Path_<std::allocator<void> >&[m[K’}
+  382 |     _smoother->smooth(plan, [01;31m[Kcostmap[m[K, time_remaining, plan_profile);
+      |                             [01;31m[K^~~~~~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Knav2_costmap_2d::Costmap2D*[m[K
+In file included from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smac_planner_hybrid.hpp:23[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/src/smac_planner_hybrid.cpp:22[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/smoother.hpp:127:27:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kbool nav2_smac_planner::Smoother::smooth(nav_msgs::msg::Path&, nav_msgs::msg::Path&, const nav2_costmap_2d::Costmap2D*, const double&)[m[K’
+  127 |     [01;36m[Knav_msgs::msg::Path & path_profile[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:158: CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:116: CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/nav2_smac_planner.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/nav2_smac_planner_lattice.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav2_smac_planner_2d.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

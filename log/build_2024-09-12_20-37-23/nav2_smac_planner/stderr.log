@@ -1,0 +1,58 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.h:29[m[K,
+                 from [01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc:21[m[K:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc:[m[K In member function ‘[01m[Kbool nav2_smac_planner::FemPosDeviationSqpOsqpInterface::Solve()[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc:158:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksqp_sub_max_iter[m[K’ was not declared in this scope; did you mean ‘[01m[Ksqp_sub_max_iter_[m[K’?
+  158 |              sub_itr, [01;31m[Ksqp_sub_max_iter[m[K);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc:[m[K In member function ‘[01m[Kdouble nav2_smac_planner::FemPosDeviationSqpOsqpInterface::CalculateConstraintViolation(const std::vector<std::pair<double, double> >&)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc:540:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCHECK_GT[m[K’ was not declared in this scope
+  540 |   [01;31m[KCHECK_GT[m[K(points.size(), 2U);
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:[m[K In member function ‘[01m[Kbool nav2_smac_planner::FemPosDeviationSmoother::SqpWithOsqp(const std::vector<std::pair<double, double> >&, const std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:92:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFemPosDeviationSqpOsqpInterface[m[K’ was not declared in this scope; did you mean ‘[01m[KFemPosDeviationOsqpInterface[m[K’?
+   92 |   [01;31m[KFemPosDeviationSqpOsqpInterface[m[K solver;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[KFemPosDeviationOsqpInterface[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksolver[m[K’ was not declared in this scope; did you mean ‘[01m[KSolve[m[K’?
+   94 |   [01;31m[Ksolver[m[K.set_weight_fem_pos_deviation(config_.weight_fem_pos_deviation());
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[KSolve[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:[m[K In member function ‘[01m[Kbool nav2_smac_planner::FemPosDeviationSmoother::SqpWithOsqp(const std::vector<std::pair<double, double> >&, const std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:92:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFemPosDeviationSqpOsqpInterface[m[K’ was not declared in this scope; did you mean ‘[01m[KFemPosDeviationOsqpInterface[m[K’?
+   92 |   [01;31m[KFemPosDeviationSqpOsqpInterface[m[K solver;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[KFemPosDeviationOsqpInterface[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksolver[m[K’ was not declared in this scope; did you mean ‘[01m[KSolve[m[K’?
+   94 |   [01;31m[Ksolver[m[K.set_weight_fem_pos_deviation(config_.weight_fem_pos_deviation());
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[KSolve[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:[m[K In member function ‘[01m[Kbool nav2_smac_planner::FemPosDeviationSmoother::SqpWithOsqp(const std::vector<std::pair<double, double> >&, const std::vector<double, std::allocator<double> >&, std::vector<double, std::allocator<double> >*, std::vector<double, std::allocator<double> >*)[m[K’:
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:92:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFemPosDeviationSqpOsqpInterface[m[K’ was not declared in this scope; did you mean ‘[01m[KFemPosDeviationOsqpInterface[m[K’?
+   92 |   [01;31m[KFemPosDeviationSqpOsqpInterface[m[K solver;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |   [32m[KFemPosDeviationOsqpInterface[m[K
+[01m[K/home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksolver[m[K’ was not declared in this scope; did you mean ‘[01m[KSolve[m[K’?
+   94 |   [01;31m[Ksolver[m[K.set_weight_fem_pos_deviation(config_.weight_fem_pos_deviation());
+      |   [01;31m[K^~~~~~[m[K
+      |   [32m[KSolve[m[K
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:382: CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_sqp_osqp_interface.cc.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:396: CMakeFiles/nav2_smac_planner_2d.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/nav2_smac_planner_2d.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:410: CMakeFiles/nav2_smac_planner.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/nav2_smac_planner.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:396: CMakeFiles/nav2_smac_planner_lattice.dir/math/discretized_points_smoothing/fem_pos_deviation_smoother.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/nav2_smac_planner_lattice.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

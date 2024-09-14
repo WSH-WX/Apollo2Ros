@@ -1,0 +1,29 @@
+[  2%] [34m[1mRunning cpp protocol buffer compiler on /home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/proto_files/fem_pos_deviation_smoother_config.proto[0m
+[  2%] [34m[1mRunning cpp protocol buffer compiler on /home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/proto_files/planner_open_space_config.proto[0m
+[  3%] [34m[1mRunning cpp protocol buffer compiler on /home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/proto_files/planner_open_space_config.proto[0m
+[  4%] [34m[1mRunning cpp protocol buffer compiler on /home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/proto_files/planner_open_space_config.proto[0m
+[  5%] [34m[1mRunning cpp protocol buffer compiler on /home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/proto_files/fem_pos_deviation_smoother_config.proto[0m
+[  6%] [34m[1mRunning cpp protocol buffer compiler on /home/wsh/wheeltec/wheeltec_ros2/src/navigation2-humble/nav2_smac_planner/proto_files/fem_pos_deviation_smoother_config.proto[0m
+fem_pos_deviation_smoother_config.proto:11:58: Expected "required", "optional", or "repeated".
+fem_pos_deviation_smoother_config.proto:11:58: Expected type name.
+planner_open_space_config.proto:241:3: Expected ";".
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:83: fem_pos_deviation_smoother_config.pb.h] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_lattice.dir/build.make:91: planner_open_space_config.pb.h] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/nav2_smac_planner_lattice.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+planner_open_space_config.proto:241:3: Expected ";".
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:91: planner_open_space_config.pb.h] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+planner_open_space_config.proto:241:3: Expected ";".
+fem_pos_deviation_smoother_config.proto:11:58: Expected "required", "optional", or "repeated".
+fem_pos_deviation_smoother_config.proto:11:58: Expected type name.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:91: planner_open_space_config.pb.h] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_smac_planner_2d.dir/build.make:83: fem_pos_deviation_smoother_config.pb.h] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:166: CMakeFiles/nav2_smac_planner_2d.dir/all] Error 2
+fem_pos_deviation_smoother_config.proto:11:58: Expected "required", "optional", or "repeated".
+fem_pos_deviation_smoother_config.proto:11:58: Expected type name.
+gmake[2]: *** [CMakeFiles/nav2_smac_planner.dir/build.make:83: fem_pos_deviation_smoother_config.pb.h] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/nav2_smac_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
